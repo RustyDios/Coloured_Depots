@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<src file=""/>
+		<mesh file="StorageDepotSmall_07_mesh.hgm"/>
+		<material file="LH_BoozeDepo_mat.mtl"/>
+
+<attach name="Box" spot_pos="557,-231,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Box" spot_pos="787,-231,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Box" spot_pos="1017,-231,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Box" spot_pos="97,-231,30" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Box" spot_pos="327,-231,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Box1" spot_pos="-133,-231,30" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Top" spot_pos="460,2,821"/>
+<attach name="Workdrone" spot_pos="1408,-25,0" spot_rot="0.0,0.0,1.0,180.0"/>
+<attach name="Workdrone" spot_pos="50,-506,0" spot_rot="0.0,0.0,0.7,90.0"/>
+<attach name="Workdrone" spot_pos="788,500,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Workdrone" spot_pos="70,500,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Workdrone" spot_pos="763,-506,0" spot_rot="0.0,0.0,0.7,90.0"/>
+<attach name="Workdrone" spot_pos="-420,-4,0"/>
+<attach name="Workrover" spot_pos="454,1001,0" spot_rot="0.0,0.0,-0.7,90.0"/>
+<attach name="Workrover" spot_pos="1905,-25,0" spot_rot="0.0,0.0,1.0,180.0"/>
+<attach name="Workrover" spot_pos="342,-1028,0" spot_rot="0.0,0.0,0.7,90.0"/>
+<attach name="Workrover" spot_pos="-920,-4,0"/>
+<attach name="Workshuttle" spot_pos="-318,-4,0"/>
+<attach name="Workshuttle" spot_pos="1338,-25,0" spot_rot="0.0,0.0,1.0,180.0"/>
+<attach name="Origin" spot_pos="0,0,0"/>
+
+<box min="-209,-310,0" max="1209,310,30"/>
+<bsphere value="500,0,15,765"/>		
+
+<surf type="hex_shape" points="554,-76,0;0,0,0;0,0,0"/>	
+<surf type="selection" points="1448,4,0;1248,-444,0;1248,484,0"/>	
+<surf type="selection" points="1248,-444,0;-288,-444,0;-288,484,0"/>	
+<surf type="selection" points="-288,-444,0;-515,-15,0;-288,484,0"/>	
+<surf type="selection" points="-288,484,0;1248,484,0;1248,-444,0"/>
+	
+</mesh_description>
+</entity>

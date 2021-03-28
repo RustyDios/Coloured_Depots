@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+	<Material>
+		
+<BaseColorMap Name="12_CD.dds" mc="0"/>
+
+<RMMap Name="11_CD.dds" mc="0"/>
+
+<NormalMap Name="10_CD.dds" mc="0"/>		
+<Property Opacity="100"/>
+
+<Property NumInstances="1"/>
+<Property CastShadow="1"/>
+
+<Property DepthWrite="1"/>				
+<Property Special="None"/>
+		
+<Property AlphaBlend="None"/>
+	
+</Material>
+</Materials>
